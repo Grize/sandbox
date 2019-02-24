@@ -1,0 +1,17 @@
+[package]
+name = "hello_server"
+version = "0.1.0"
+authors = ["Poul Barnash <myheroreadytodie@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+router = "0.6.0"
+
+[dependencies.urlencoded]
+version = "*"
+
+[dependencies.iron]
+version = "*"
+
+[dependencies.mime]
+version = "*"
